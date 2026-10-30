@@ -1,0 +1,70 @@
+{
+    "project": "Government Fund Allocation and Utilization Forecasting",
+    "algorithm": "Particle Swarm Optimization",
+    "dataset_summary": {
+        "total_records": 5,
+        "training_records": 4,
+        "missing_records": 1
+    },
+    "model_metrics": {
+        "MAE": 10.306387120739661,
+        "MSE": 143.86448681597884,
+        "RMSE": 11.994352288305477,
+        "R2": 0.46206451514370217,
+        "Allocated_MAE": 7.302894117405781,
+        "Utilized_MAE": 13.30988012407354,
+        "Allocated_RMSE": 8.161860108523102,
+        "Utilized_RMSE": 14.869869306784674,
+        "Allocated_R2": 0.5665492611233787,
+        "Utilized_R2": 0.3575797691640257
+    },
+    "optimization": {
+        "best_fitness": 0.5398976307841784,
+        "iterations": 200,
+        "particles": 50
+    },
+    "evaluation_type": "In-sample training evaluation",
+    "forecast_note": "Experimental predictions due to limited data",
+    "future_predictions": [
+        {
+            "Year": 2024,
+            "Predicted_Allocated": 79.0142442923,
+            "Predicted_Utilized": 110.7779911693,
+            "Financial_Year": "2024-25",
+            "Predicted_Fund_Gap": -31.763746877,
+            "Predicted_Utilization_Percentage": 140.2000261617
+        },
+        {
+            "Year": 2025,
+            "Predicted_Allocated": 23.9457962301,
+            "Predicted_Utilized": 105.3698284407,
+            "Financial_Year": "2025-26",
+            "Predicted_Fund_Gap": -81.4240322106,
+            "Predicted_Utilization_Percentage": 440.0347661366
+        },
+        {
+            "Year": 2026,
+            "Predicted_Allocated": -48.5140639311,
+            "Predicted_Utilized": 101.4523580533,
+            "Financial_Year": "2026-27",
+            "Predicted_Fund_Gap": -149.9664219844,
+            "Predicted_Utilization_Percentage": -209.1194796571
+        },
+        {
+            "Year": 2027,
+            "Predicted_Allocated": -138.3653361914,
+            "Predicted_Utilized": 99.0255800069,
+            "Financial_Year": "2027-28",
+            "Predicted_Fund_Gap": -237.3909161983,
+            "Predicted_Utilization_Percentage": -71.5681996176
+        },
+        {
+            "Year": 2028,
+            "Predicted_Allocated": -245.6080205506,
+            "Predicted_Utilized": 98.0894943017,
+            "Financial_Year": "2028-29",
+            "Predicted_Fund_Gap": -343.6975148523,
+            "Predicted_Utilization_Percentage": -39.9374149434
+        }
+    ]
+}

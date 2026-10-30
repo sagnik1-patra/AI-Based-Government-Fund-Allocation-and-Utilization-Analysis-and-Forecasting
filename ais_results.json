@@ -1,0 +1,62 @@
+{
+    "project": "Government Fund Allocation and Utilization Forecasting",
+    "algorithm": "Artificial Immune System",
+    "method": "Clonal Selection",
+    "dataset_summary": {
+        "total_records": 5,
+        "training_records": 4
+    },
+    "model_metrics": {
+        "MAE": 10.346524688892416,
+        "MSE": 143.98938499372332,
+        "RMSE": 11.999557699920581,
+        "R2": 0.46154361858792975,
+        "Allocated_MAE": 7.2402742754042535,
+        "Utilized_MAE": 13.452775102380578,
+        "Allocated_R2": 0.565978259490356,
+        "Utilized_R2": 0.35710897768550354
+    },
+    "optimization": {
+        "best_fitness": 0.5403526356738474,
+        "generations": 200,
+        "population_size": 50
+    },
+    "evaluation_type": "In-sample training evaluation",
+    "future_predictions": [
+        {
+            "Year": 2024,
+            "Predicted_Allocated": 79.80396261798548,
+            "Predicted_Utilized": 110.55553903115859,
+            "Financial_Year": "2024-25",
+            "Predicted_Utilization_Percentage": 138.53389656899392
+        },
+        {
+            "Year": 2025,
+            "Predicted_Allocated": 25.78058284372804,
+            "Predicted_Utilized": 104.47605927136667,
+            "Financial_Year": "2025-26",
+            "Predicted_Utilization_Percentage": 405.2509592380447
+        },
+        {
+            "Year": 2026,
+            "Predicted_Allocated": -45.24410637221803,
+            "Predicted_Utilized": 99.56823619005704,
+            "Financial_Year": "2026-27",
+            "Predicted_Utilization_Percentage": -220.068964056712
+        },
+        {
+            "Year": 2027,
+            "Predicted_Allocated": -133.2701050298527,
+            "Predicted_Utilized": 95.8320697872297,
+            "Financial_Year": "2027-28",
+            "Predicted_Utilization_Percentage": -71.90815206888536
+        },
+        {
+            "Year": 2028,
+            "Predicted_Allocated": -238.2974131291761,
+            "Predicted_Utilized": 93.26756006288468,
+            "Financial_Year": "2028-29",
+            "Predicted_Utilization_Percentage": -39.13914080650396
+        }
+    ]
+}

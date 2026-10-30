@@ -1,0 +1,18 @@
+project: AI-Based Government Fund Allocation and Utilization Analysis and Forecasting
+dataset: RS_Session_270_AU_2397_B.ii_.csv
+total_records: 5
+training_records: 4
+features:
+- Year_Numeric
+targets:
+- Funds Allocated
+- Funds Utilised
+models:
+- Linear Regression
+- Random Forest
+- Decision Tree
+- Gradient Boosting
+- Support Vector Regression
+- Neural Network
+evaluation_type: In-sample training evaluation only
+forecast_note: Experimental forecasts due to limited historical data

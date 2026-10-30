@@ -1,0 +1,26 @@
+project: AI-Based Government Fund Allocation and Utilization Analysis and Forecasting
+algorithm: Particle Swarm Optimization
+dataset: RS_Session_270_AU_2397_B.ii_.csv
+total_records: 5
+training_records: 4
+features:
+- Year_Numeric
+targets:
+- Funds Allocated
+- Funds Utilised
+model:
+  type: Polynomial Regression
+  degree: 2
+  parameters: 6
+pso_parameters:
+  particles: 50
+  iterations: 200
+  inertia_weight: 0.7
+  cognitive_coefficient: 1.5
+  social_coefficient: 1.5
+  lower_bound: -5.0
+  upper_bound: 5.0
+  max_velocity: 1.0
+  regularization: 0.001
+evaluation: Training-fit metrics only
+forecast_reliability: Experimental - insufficient historical data

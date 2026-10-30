@@ -1,0 +1,132 @@
+{
+    "project": "Government Fund Allocation and Utilization Forecasting",
+    "dataset_records": 5,
+    "training_records": 4,
+    "evaluation_type": "Training-fit metrics; no independent test set",
+    "model_metrics": [
+        {
+            "Model": "Linear Regression",
+            "MAE": 11.57499999999959,
+            "MSE": 182.42499999998955,
+            "RMSE": 13.506479926316462,
+            "R2_Score": 0.21217438296028934
+        },
+        {
+            "Model": "Random Forest",
+            "MAE": 7.342499999999992,
+            "MSE": 69.3984249999999,
+            "RMSE": 8.330571709072547,
+            "R2_Score": 0.7408101741042662
+        },
+        {
+            "Model": "Decision Tree",
+            "MAE": 0.0,
+            "MSE": 0.0,
+            "RMSE": 0.0,
+            "R2_Score": 1.0
+        },
+        {
+            "Model": "Gradient Boosting",
+            "MAE": 0.0003635591472814781,
+            "MSE": 1.756273755634637e-07,
+            "RMSE": 0.0004190791996311243,
+            "R2_Score": 0.9999999992944921
+        },
+        {
+            "Model": "Support Vector Regression",
+            "MAE": 1.546559538102457,
+            "MSE": 2.4866523422963462,
+            "RMSE": 1.576912281103913,
+            "R2_Score": 0.990012580919132
+        },
+        {
+            "Model": "Neural Network",
+            "MAE": 0.08018207550048828,
+            "MSE": 0.016056725005910266,
+            "RMSE": 0.1267151332947658,
+            "R2_Score": 0.9999345597655289
+        }
+    ],
+    "future_predictions": [
+        {
+            "Year": 2024,
+            "Linear_Regression_Allocated": 122.5,
+            "Linear_Regression_Utilized": 107.0,
+            "Random_Forest_Allocated": 121.82,
+            "Random_Forest_Utilized": 119.05,
+            "Decision_Tree_Allocated": 113.0,
+            "Decision_Tree_Utilized": 111.0,
+            "Gradient_Boosting_Allocated": 113.00044490343136,
+            "Gradient_Boosting_Utilized": 111.00055114902692,
+            "Support_Vector_Regression_Allocated": 115.05289510546119,
+            "Support_Vector_Regression_Utilized": 115.62598322654516,
+            "Neural_Network_Allocated": 73.92778015136719,
+            "Neural_Network_Utilized": 71.64921569824219,
+            "Financial_Year": "2024-25"
+        },
+        {
+            "Year": 2025,
+            "Linear_Regression_Allocated": 119.59999999999945,
+            "Linear_Regression_Utilized": 97.10000000000218,
+            "Random_Forest_Allocated": 121.82,
+            "Random_Forest_Utilized": 119.05,
+            "Decision_Tree_Allocated": 113.0,
+            "Decision_Tree_Utilized": 111.0,
+            "Gradient_Boosting_Allocated": 113.00044490343136,
+            "Gradient_Boosting_Utilized": 111.00055114902692,
+            "Support_Vector_Regression_Allocated": 125.86946320643739,
+            "Support_Vector_Regression_Utilized": 130.33858232804857,
+            "Neural_Network_Allocated": 35.698646545410156,
+            "Neural_Network_Utilized": 36.750770568847656,
+            "Financial_Year": "2025-26"
+        },
+        {
+            "Year": 2026,
+            "Linear_Regression_Allocated": 116.69999999999982,
+            "Linear_Regression_Utilized": 87.20000000000073,
+            "Random_Forest_Allocated": 121.82,
+            "Random_Forest_Utilized": 119.05,
+            "Decision_Tree_Allocated": 113.0,
+            "Decision_Tree_Utilized": 111.0,
+            "Gradient_Boosting_Allocated": 113.00044490343136,
+            "Gradient_Boosting_Utilized": 111.00055114902692,
+            "Support_Vector_Regression_Allocated": 127.05675054190344,
+            "Support_Vector_Regression_Utilized": 131.94768363892965,
+            "Neural_Network_Allocated": -0.1625823974609375,
+            "Neural_Network_Utilized": 5.289764404296875,
+            "Financial_Year": "2026-27"
+        },
+        {
+            "Year": 2027,
+            "Linear_Regression_Allocated": 113.79999999999927,
+            "Linear_Regression_Utilized": 77.30000000000291,
+            "Random_Forest_Allocated": 121.82,
+            "Random_Forest_Utilized": 119.05,
+            "Decision_Tree_Allocated": 113.0,
+            "Decision_Tree_Utilized": 111.0,
+            "Gradient_Boosting_Allocated": 113.00044490343136,
+            "Gradient_Boosting_Utilized": 111.00055114902692,
+            "Support_Vector_Regression_Allocated": 127.07926934161603,
+            "Support_Vector_Regression_Utilized": 131.97819114912238,
+            "Neural_Network_Allocated": -35.34565734863281,
+            "Neural_Network_Utilized": -25.295272827148438,
+            "Financial_Year": "2027-28"
+        },
+        {
+            "Year": 2028,
+            "Linear_Regression_Allocated": 110.89999999999964,
+            "Linear_Regression_Utilized": 67.40000000000146,
+            "Random_Forest_Allocated": 121.82,
+            "Random_Forest_Utilized": 119.05,
+            "Decision_Tree_Allocated": 113.0,
+            "Decision_Tree_Utilized": 111.0,
+            "Gradient_Boosting_Allocated": 113.00044490343136,
+            "Gradient_Boosting_Utilized": 111.00055114902692,
+            "Support_Vector_Regression_Allocated": 127.07935319174562,
+            "Support_Vector_Regression_Utilized": 131.97830473823296,
+            "Neural_Network_Allocated": -69.49754333496094,
+            "Neural_Network_Utilized": -54.21205139160156,
+            "Financial_Year": "2028-29"
+        }
+    ]
+}
